@@ -36,7 +36,6 @@ class Cuckoo:
             r += f"{i:4}: {f:2}, {s:2}\n"
         return r
 
-
 def main():
     table_size = 8
     cuckoo = Cuckoo(table_size)
